@@ -1,5 +1,5 @@
 {
-  "name": "consent-ledger-protocol",
+  "name": "consent-ledger",
   "version": "1.0.1",
   "description": "Tamper-evident records of human authorisation and agent actions (CNL-1.0)",
   "license": "MIT",
