@@ -1,6 +1,6 @@
 {
   "name": "consent-ledger-protocol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tamper-evident records of human authorisation and agent actions (CNL-1.0)",
   "license": "MIT",
   "main": "dist/index.js",
@@ -15,5 +15,31 @@
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "author": "Warren Smith",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repowazdogz-droid/consent-ledger.git"
+  },
+  "homepage": "https://github.com/repowazdogz-droid/consent-ledger#readme",
+  "bugs": {
+    "url": "https://github.com/repowazdogz-droid/consent-ledger/issues"
+  },
+  "keywords": [
+    "omega-protocol",
+    "consent-ledger",
+    "cnl-1.0"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }

@@ -32,6 +32,8 @@ Three capabilities:
 - **emergency** — agent acted without consent due to urgency, must be ratified
 - **delegated** — consent passed from one agent to another
 
+Repository: https://github.com/repowazdogz-droid/consent-ledger
+
 ## Install
 
 ```bash
